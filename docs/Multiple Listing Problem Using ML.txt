@@ -1,0 +1,24 @@
+Multiple Listing Problem Using ML
+
+Data Preparation:
+Features: Address, description, amenities etc
+Steps:
+	Numerical:
+	Categorical:
+	Text:
+		Data Cleaning: Perform data cleaning to remove unwanted characters, spaces, or HTML tags. Also, remove any duplicates, irrelevant data, or special characters that can interfere with the analysis.
+
+		Tokenization: Tokenization is the process of breaking down a text into individual words, phrases, or sentences. This can be achieved using different tools such as the Natural Language Toolkit (NLTK), spaCy, or regular expressions.
+
+		Stop Words Removal: Stop words are common words that do not add any value to the analysis, such as “the,” “and,” “a,” etc. Remove stop words using NLTK or spaCy libraries.
+
+		Stemming/Lemmatization: Stemming is the process of reducing words to their root form, such as “running” to “run.” Lemmatization is the process of converting words to their base or dictionary form, such as “went” to “go.” Use libraries such as NLTK or spaCy to perform stemming/lemmatization.
+		
+	
+Model:
+Indexed Filtering: To filter out the top (also max) 50 properties with the help of a properties indexed query.
+Stack Ranking: Using a deep neural network, stack rank those 50 properties via the properties-properties matching algorithm.‌
+
+Take hint from here:
+https://skillate.com/blog/how-does-ml-based-job-resume-matching-algorithm-work-2/
+https://medium.com/coinmonks/building-efficient-learned-indices-using-machine-learning-96890c0fa948
